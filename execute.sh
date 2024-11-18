@@ -1,0 +1,1 @@
+nohup matlab -nodesktop -nosplash -r "addpath('/home/master/QK/pointmass/matlab_code/PointMass'); addpath('/home/master/QK/pointmass/matlab_code/GridSphere'); run('test_matrix_inv.m');  exit;" > /home/master/QK/pointmass/matlab_code/PointMass/matlab.log 2>&1 &

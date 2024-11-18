@@ -1,0 +1,136 @@
+{
+  "Console": [
+    {
+      "name": "Entrance",
+      "tempValue": [
+        {
+          "masconfit": 0,
+          "show_mascon": 1,
+          "generate_mask": 2,
+          "show_mask": 3,
+          "regularization_matrix_construction": 4,
+          "show_Rmatrix": 5,
+          "show_TWSA": 6,
+          "show_gif": 7,
+          "acceleration": 8,
+          "Greenland": 9
+        }
+      ],
+      "value": 8
+    }
+  ],
+  "Inputfilepath": [
+    {
+      "name": "Spherical harmonic",
+      "SH_path": "data\\SH_coefficient2"
+    },
+    {
+      "name": "Grid location",
+      "grid_location_path": "data\\Lon_Lat_vec.nc"
+    },
+    {
+      "name": "Regularization matrix",
+      "reg_matrix_path": "data\\RM_PM.nc"
+    },
+    {
+      "name": "polygon shpfile",
+      "polygon_shpfile_path": "data\\special_area\\special_area.shp"
+    },
+    {
+      "name": "coastline shpfile",
+      "coastline_shpfile_path": "data\\coastline\\ne_110m_coastline.shp"
+    },
+    {
+      "name": "Antarctica boundary",
+      "Antarctica_path": "data\\bln\\Antarctica.bln"
+    },
+    {
+      "name": "DDK filter",
+      "DDK_filter_path": "data\\src\\ddk-data"
+    },
+    {
+      "name": "TN 13",
+      "tn13_path": "data\\TN-13_GEOC_CSR_RL06.txt"
+    },
+    {
+      "name": "TN 14",
+      "tn14_path": "data\\TN-14_C30_C20_GSFC_SLR.txt"
+    },
+    {
+      "name": "boundary",
+      "bln_path": "data\\bln\\Greenland.bln"
+    }
+  ],
+  "Outputfilepath": [
+    {
+      "name": "Terrestrial water storage anomaly",
+      "mascon_path": "results\\acc_mascon"
+    },
+    {
+      "name": "mascon image",
+      "image_path": "images\\mascon_acc"
+    },
+    {
+      "name": "RMS mask",
+      "RMS_mask_path": "results\\Greenland_mask"
+    },
+    {
+      "name": "RMS mask image",
+      "RMS_mask_image_path": "images\\mask_image"
+    },
+    {
+      "name": "TWSA",
+      "TWSA_path": "results\\TWSA"
+    },
+    {
+      "name": "R matrix",
+      "Rmatrix_path": "results\\Rmatrix"
+    },
+    {
+      "name": "R matrix image",
+      "Rmatrix_image_path": "images\\Rmatrix"
+    },
+    {
+      "name": "TWSA image",
+      "TWSA_image_path": "images\\TWSA"
+    },
+    {
+      "name": "mascon gif",
+      "mascon_gif_path": "images\\mascon_gif"
+    },
+    {
+      "name": "acceleration",
+      "acceleration_path": "results\\acceleration"
+    },
+    {
+      "name": "Greenland mask extended",
+      "Gmask_extended_path": "results\\Greenland_mask_extended"
+    }
+  ],
+  "Inputparameter": [
+    {
+      "name": "employed model",
+      "tempValue": [
+        {
+          "single": 0,
+          "all": 1
+        }
+      ],
+      "value": 1
+    },
+    {
+      "name": "constraint choice",
+      "tempValue": [
+        {
+          "identity": 0,
+          "RMS": 1
+        }
+      ],
+      "value": 1
+    },
+    {
+      "name": "zone area",
+      "value": 8
+    }
+  ]
+}
